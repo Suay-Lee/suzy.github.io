@@ -1,0 +1,219 @@
+    /*sub-banner部分start*/
+    .sub-banner {
+        position: relative;
+    }
+    .sub-banner a {
+        position: absolute;
+        yop:0px;
+        left: 0px;
+        width: 100%;
+        height: 644px;
+        background: url("../image/sub-banner.jpg") no-repeat center;
+    }
+    /*sub-banner部分end*/
+
+    /*main部分start*/
+    .main {
+        position: relative;
+    }
+     .main-slider {
+         width: 730px;
+         height: 454px;
+         float: left;
+         position: relative;
+         margin:12px 2px 0 218px;
+     }
+    .main-slider ul {
+        position: absolute;
+        left: 50%;
+        margin-left:-66px;
+        /*left:299px;*/
+        bottom:10px;
+    }
+    .main-slider li {
+        color:#fff;
+        float: left;
+        width: 18px;
+        margin:0 2px;
+        height: 18px;
+        line-height: 18px;
+        border-radius:50%;
+        text-align: center;
+        cursor: pointer;
+        background: #3e3e3e;
+    }
+    .main-slider .current {
+        background: #b61b1f;
+    }
+    .arrow a {
+        position: absolute;
+        top:50%;
+        color:#fff;
+        width: 28px;
+        height: 62px;
+        margin-top: -31px;
+        text-align: center;
+        border-radius:10px;   /*圆角矩形*/
+
+        font:400 22px/62px simsun;
+        background: rgba(0,0,0,0.3);
+        /*opacity:0.3;*/
+    }
+    .arrow a:hover{
+        background: rgba(0,0,0,.7);
+    }
+    .arrow .arrow-left {
+        left:0;
+        border-radius:0 10px 10px 0;
+    }
+    .arrow .arrow-right {
+        right:0;
+        border-radius:10px 0 0 10px;
+    }
+    .main-news {
+        float: right;
+        height: 466px;
+        width: 250px;
+        
+    }
+    .main-news-top {
+        overflow: hidden;
+        width: 248px;
+        height: 372px;
+        margin:12px 0 5px 0;
+        border:1px solid #e4e4e4;
+    }
+    .main-news-top-fast {
+        height: 163px;
+        line-height: 32px;
+        padding:0 15px;
+        border-bottom: 1px dashed #e4e4e4;     /*虚线----dashed---大使的*/
+    }
+    .main-news-top-fast-title {
+        height: 32px;
+        line-height: 32px;
+        padding:0 15px;
+        border-bottom: 1px dotted #e8e8e7;    /*点线----dotted---刀剃的*/
+    }
+    .main-news-top-fast-title h2 {
+        float: left;
+        font:400 16px/32px microsoft yahei;
+    }
+    .main-news-top-fast-title a {
+        float: right;
+        font-family:consolas;
+    }
+    .main-news-top-fast-content {
+        padding:5px 0 0 15px;
+    }
+    .main-news-top-fast-content li {
+        height: 24px;
+    }
+    .main-news-top-fast-content span {
+        font-weight: 700;
+        margin-right:5px;
+    }
+    .main-news-top-money ul {
+        width: 260px;         /*大于4个li小于5个li*/
+    }
+    .main-news-top-money li {
+        width: 62px;
+        height: 70px;
+        float: left;
+        margin-left :-1px;
+        margin-top:-1px;
+        border: 1px solid #e8e8e7;
+        border-top:0;
+    }
+    .main-news-top-money a {
+        display: block;
+        width: 62px;
+        height: 30px;
+        position: relative;
+        padding-top: 40px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .main-news-top-money i {
+        position: absolute;
+        top: 13px;
+        left:18px;
+        width: 25px;
+        height: 25px;
+        background: url("../image/hf.png") no-repeat;
+    }
+    .main-news-top-money .main-news-top-money-icon2 {
+        background-position: 0 -44px;
+    }
+    .main-news-top-money .main-news-top-money-icon3 {
+        background-position: 0 -88px;
+    }
+    .main-news-top-money .main-news-top-money-icon4 {
+        background-position: 0 -132px;
+    }
+    .main-news-top-money .main-news-top-money-icon5 {
+        background-position: 0 -175px;
+    }
+    .main-news-top-money .main-news-top-money-icon6 {
+        background-position: 0 -221px;
+    }
+    .main-news-top-money .main-news-top-money-icon7 {
+        background-position: 0 -264px;
+    }
+    .main-news-top-money .main-news-top-money-icon8 {
+        background-position: 0 -309px;
+    }
+    .main-news-top-money .main-news-top-money-icon9 {
+        background-position: 0 -351px;
+    }
+    .main-news-top-money .main-news-top-money-icon10 {
+        background-position: 0 -395px;
+    }
+    .main-news-top-money .main-news-top-money-icon11 {
+        background-position: 0 -439px;
+    }
+    .main-news-top-money .main-news-top-money-icon12 {
+        background-position: 0 -483px;
+    }
+    .show {
+         background: url("../image/new.png") no-repeat right top;
+    }
+    .spe {
+        background: url("../image/new.png") no-repeat 47px 0;
+    }
+    /*main部分end*/
+
+    /*today部分start*/
+    .today {
+        padding:10px 0 20px;
+        /*margin:10px auto 20px;*/
+        position: relative;
+    }
+    .today-left {
+        float: left;
+    }
+    .today-left a {
+        display: block;
+        width: 210px;
+        height: 151px;
+        background: url("../image/today.jpg");
+    }
+    .today-right {
+        float: right;
+        width: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .today-right ul {
+        width: 410%;
+    }
+    .today-right li {
+        float: left;
+        margin-right:1px;
+    }
+    /*today部分end*/
+
+
+
+    /*main部分start*/
+    /*main部分end*/
